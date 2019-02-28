@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v3.8.5">
+    <title>Signin Template · Bootstrap</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/sign-in/">
+
+    <!-- Bootstrap core CSS -->
+<link href="CSS/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link href="CSS/signin.css">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="CSS/signin.css" rel="stylesheet">
+  </head>
+  <body class="text-center">
+    <form class="form-signin">
+  <img class="mb-4" src="sutsu.png" alt="" width="100" height="72">
+  <h1 class="h3 mb-3 font-weight-normal">Inscription</h1>
+  <label for="inputName" class="sr-only">NOM</label>
+  <input type="name" id="inputName" class="form-control" placeholder="NOM" required autofocus>
+  <label for="inputFirstname" class="sr-only">Prénom</label>
+  <input type="firstname" id="inputFirstname" class="form-control" placeholder="Prénom" required autofocus>
+  <label>
+      <input type="checkbox" value="homme"> Homme
+  </label>
+  <label>
+      <input type="checkbox" value="femme"> Femme
+  </label>
+  <label>
+      <input type="checkbox" value="autre"> Autre
+  </label>
+ <!-- <p>
+  <label for="choix_age">Age</label>
+<input list="age" type="text" id="choix_age">
+<datalist id="Age">
+  <option value="18-22 ans">
+  <option value="23-30 ans">
+  <option value="30-40 ans">
+  <option value="40+ ans">
+</datalist>
+</p>
+-->
+  <label for="inputAge" class="sr-only">Age</label>
+  <input type="age" id="inputAge" class="form-control" placeholder="Age" required autofocus>
+  <label for="inputStartup" class="sr-only">Startup affiliée</label>
+  <input type="startup" id="inputStartup" class="form-control" placeholder="Startup affiliée" required autofocus>
+  <label for="inputEmail" class="sr-only">Adresse Email</label>
+  <input type="email" id="inputEmail" class="form-control" placeholder="Adresse Email" required autofocus>
+  <label for="inputPassword" class="sr-only">Mot de passe</label>
+  <input type="password" id="inputPassword" class="form-control" placeholder="Mot de passe" required>
+<!--
+  <div class="checkbox mb-3">
+    <label>
+      <input type="checkbox" value="remember-me"> Remember me
+    </label>
+  </div>
+-->
+  <button class="btn btn-lg btn-primary btn-block" type="submit">S'inscire !</button>
+  <p class="mt-5 mb-3 text-muted">&copy; 2018-2019</p>
+</form>
+</body>
+</html>
