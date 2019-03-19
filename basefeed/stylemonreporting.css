@@ -1,0 +1,31 @@
+.jumbotron {
+  margin: 40px;
+}
+
+.container {
+  text-align: center;
+}
+
+.color1 {
+	color: #00B8FF;
+}
+
+.color2 {
+	color: #8000FF;
+}
+
+.back1 {
+	border-bottom-style: solid;
+	border-bottom-color: #00B8FF;
+}
+
+.back2 {
+	border-bottom-style: solid;
+	border-bottom-color: #8000FF;
+}
+
+.marge {
+	margin-top: 15px;
+}
+
+
