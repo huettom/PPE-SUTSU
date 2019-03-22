@@ -1,5 +1,8 @@
 <!doctype html>
-<?php include('mes_questions.php'); ?>
+<?php 
+
+include('mes_questions.php'); 
+?>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
@@ -18,17 +21,9 @@
   	<div class="nav d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
 	  <img src="sutsu.png" class="my-0 mr-md-auto font-weight-normal">
 	  <nav class="my-2 my-md-0 mr-md-3 ">
-		    <a class="p-2 text-dark" href="feed.html">Fil d'actualité</a>
+		    <a class="p-2 text-dark" href="feed.php">Fil d'actualité</a>
 		    <a class="p-2 text-dark" href="mesquestions.php">Mes questions</a>
-		    <?php
-    define('DB_SERVER','localhost');
-    define('DB_USER','root');
-    define('DB_PASS','root');
-    $database='SUTZUUUU';
-    session_start();
-    
-        echo $_SESSION['antoine'];
-?>
+
 	  </nav>
 	</div>
 

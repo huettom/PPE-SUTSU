@@ -17,7 +17,7 @@
   	<div class="nav d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
 	  <img src="sutsu.png" class="my-0 mr-md-auto font-weight-normal">
 	  <nav class="my-2 my-md-0 mr-md-3 ">
-		    <a class="p-2 text-dark" href="feed.html">Fil d'actualité</a>
+		    <a class="p-2 text-dark" href="feed.php">Fil d'actualité</a>
 		    <a class="p-2 text-dark" href="mesquestions.php">Mes questions</a>
 	  </nav>
 	</div>
