@@ -1,6 +1,3 @@
-.jumbotron {
-  margin: 40px;
-}
 
 .container {
   text-align: center;
@@ -24,22 +21,32 @@
 	border-bottom-color: #8000FF;
 }
 
-.marge {
-	margin-top: 15px;
+main
+{	width: 100%;
+	min-height: 100%;
 }
 
 
 html {
     position: relative;
-    min-height: 100%;
+    height: 100%;
+    width: 100%;
 }
 
+
+
+
 .footer {
-	position: absolute;
-	bottom: 0;
+
 	font-size: 12px;
 	width: 100%;
 	background-color: white;
+}
+
+
+dl#csschart
+{
+	margin-top: 1.5rem;
 }
 
 dl#csschart dt{
@@ -84,15 +91,49 @@ dl#csschart span em{
 	float:left;
 	height: 100%;
 	width: 100%;
-	line-height:200%;
 	background:#fff;
 	color:#555;
 	position:absolute;
 	bottom: 0px;
 	text-align:center;
 
-	} 		
+}
 
+dl#csschart span em p
+{
+	transform: translateY(-1.3rem);
+} 	
+
+
+
+@media screen and (max-width: 425px)
+{
+	dl#csschart span em p
+	{
+		transform: rotate(-90deg) translateX(1.5rem);
+
+	}
+
+	.tage p 
+	{
+		transform: rotate(-45deg);
+	}
+
+	.barchart
+	{
+		padding-left: 5px;
+		padding-right:5px;
+	}
+}
+
+@media screen and (max-width: 300px)
+{
+	.tage p
+	{
+		transform: rotate(-90deg);
+
+	}
+}
 
 
 
