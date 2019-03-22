@@ -21,7 +21,6 @@ $ID = $row["IDU"];
 $nom = $row["nom"];
 $prenom = $row["prenom"];
 $count = mysqli_num_rows($result);
-// If result matched $myusername and $mypassword, table row must be 1 row
 if($count == 1) {
     $_SESSION['login_user'] = $myusername;
     $_SESSION['id'] = $ID;
@@ -34,7 +33,7 @@ else
 {
     echo "Your Login Name or Password is invalid";
     header('Location: index.php');
-    $_SESSION['message'] = "tia fait de la moula le S";
+    $_SESSION['message'] = "ERREUR DE Connection";
 
 }
 ?>

@@ -1,4 +1,7 @@
 <!doctype html>
+<?php
+    include('feed_php.php');
+?>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
@@ -17,18 +20,8 @@
   	<div class="nav d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
 	  <img src="sutsu.png" class="my-0 mr-md-auto font-weight-normal">
 	  <nav class="my-2 my-md-0 mr-md-3 ">
-		    <a class="p-2 text-dark" href="feed.html">Fil d'actualité</a>
-		    <a class="p-2 text-dark" href="mesquestions.html">Mes questions</a>
-<?php
-    session_start();
-// Create connection
-$conn = new mysqli($servername, $username, $password, $dbname);
-        echo $_SESSION['prenom'];
-        echo " ";
-        echo $_SESSION['nom'];;
-        echo " ";    
-        echo "<br>";
-?>
+		    <a class="p-2 text-dark" href="feed.php">Fil d'actualité</a>
+		    <a class="p-2 text-dark" href="mesquestions.php">Mes questions</a>
 	  </nav>
 	</div>
 

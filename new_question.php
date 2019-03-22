@@ -8,7 +8,7 @@
     if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error); }
  	$Description = $_POST['Description']; 
- 	$UID = 1;
+ 	$UID = $_SESSION['id'];
  	$ID_utilisateur= $UID;
  	$Reponse_a = $_POST['Reponse_a'];
  	$Reponse_b = $_POST['Reponse_b'];

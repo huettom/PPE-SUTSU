@@ -27,6 +27,9 @@
     define('DB_PASS','root');
     $database='SUTZUUUU';
     session_start();
+    $_SESSION['nom']="";
+        $_SESSION['prenom']="";
+        $_SESSION['id']=0;
     $db_handle=mysqli_connect(DB_SERVER,DB_USER,DB_PASS);
     $db_found=mysqli_select_db($db_handle,$database);
     $id=$_SESSION['id'];
@@ -43,8 +46,8 @@
         $_SESSION['prenom']=$p;
         $_SESSION['id']=$id;
 
-        echo $_SESSION['message'];
-        $_SESSION['message']="";
+      echo $_SESSION['message'];
+        $_SESSION['message']=""; 
 ?>
 
 		<div class="form-group ">
