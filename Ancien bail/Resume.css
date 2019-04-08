@@ -1,0 +1,103 @@
+#menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: #f1f1f1;
+    height: 100%; /* Full height */
+    position: fixed; /* Make it stick, even on scroll */
+    overflow: auto; /* Enable scrolling if the sidenav has too much content */
+    display: inline-block;
+}
+
+#menu li
+{
+  float: left;
+}
+
+#Navigation
+{
+  position: fixed;
+  display: table;
+  top: 0%;
+}
+
+#InfosPerso
+{
+	position: absolute;
+}
+
+body
+{
+     background-color: black;
+     color: white;
+}
+
+#Nom_prenom
+{
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%);
+	font-size: 80px;
+	top: 10%;
+	display: inline;
+}
+
+#enTete
+{
+	position: absolute;
+	background-color: black;
+	left: 0%;
+	top: 0%;
+	height: 100%;
+	width: 100%;
+}
+
+#InfosPerso
+{
+	position: absolute;
+	left: 50%;
+	height: 100%;
+	width: 100%;
+	transform: translate(-50%);
+
+}
+
+#Photo_profil
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	height: 250px;
+	width: 250px;
+
+	transform: translate(-50%,-50%);
+	
+}
+
+#TextPerso
+{
+	position: absolute;;
+	top: 70%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+}
+
+
+#Contenu
+{
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	transform: translate(-50%);
+
+}
+
+#Coucou
+{
+	position: absolute;
+	top: 200%;
+	left: 50%;
+	transform: translate(-50%);
+}

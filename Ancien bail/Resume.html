@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<title>Mon_CV</title>
+	<link rel="stylesheet" href="Resume.css" />
+	<script src="ContactForm.js"></script>
+</head>
+<body>
+
+<nav id="Navigation">
+
+<h2 id="Mon_CV">Mon CV</h2>
+
+<h2 id="Naviga">Navigation</h2>
+
+<ul><id="menu">
+  <li><a href="#intro" title="aller dans Intro">Intro</a></li>
+  <li><a href="#Experience_en_entreprise" title="aller dans Experience en entreprise">Experience en entreprise</a></li>
+  <li><a href="#Formation" title="aller dans Formation">Formation</a></li>
+  <li><a href="#Langues" title="aller dans Langues">Langues</a></li>
+  <li><a href="#Centres_d_interets" title="aller dans Centres d'intérets">Centres d'interets</a></li>
+</ul>
+
+</nav>
+
+
+
+<section id="InfosPerso">
+<h1 id="Nom_prenom">Jules AUDEGON</h1>
+
+<img src="Jules.jpg" id="Photo_profil" alt="Photo de profil">
+<p id="TextPerso">51 Avenue de la Republique, Paris XI<br>
+	06 11 97 01 65<br>
+	jules.audegon@edu.ece.fr<br>
+	21 ans<br>
+</p>
+</section>
+
+
+
+
+
+
+
+<section id="Contenu">
+
+<section id="intro">
+<h2 id="Titre_Intro">Cursus Ingenieur en cours, ECE Paris</h2>
+<ul>
+	<li><STRONG>Competence technique : </STRONG>C, C++, Java, Html, Css, JS</li>
+	<li><STRONG>Technologies : </STRONG>Windows, Linux, Office Microsoft, Git, UML</li>
+	<li><STRONG>Formation Humaine :</STRONG>anglais, communication, gestion</li>
+</ul>
+</section>
+
+<section id="Experience_en_entreprise">
+	<h2>Experience en Entreprise</h2>
+	<p><em>Juillet 2017</em>           Auxiliaire de Vacances chez BP2S, a Pantin : BNP Paribas</p>
+	<p><em>Janvier-Fevrier 2017</em>   Stage Securite Globale chez Cardiff a Nanterre</p>
+	<p><em>Aout 2015 et Aout 2016</em> Auxiliaire de Vacances chez cetelem Personal Finance</p>
+	<p><em>Fevrier 2012</em>           Stage de decouverte des equipes de l'entreprise BNP Paribas ITP</p>
+</section>
+
+<section id="Formation">
+	<h2>Formation</h2>
+	<ul>
+	<li><em>Aout 2017 - Janvier 2018 </em> Semestre d'echange en Suede a Malmo Hogskola</li>
+	<li><em>Septembre 2017 </em> 1ere annee du cycle d'Ingenieur a l'ECE Paris</li>
+	<li><em>Sept 2015 - Juin 2017</em> 2ieme anne du cycle Preparatoire Integre a l'ECE Paris</li>
+	<li><em>Juin 2015</em> Diplome du Baccalaureat serie Scientifique avec mention</li>
+</ul>
+</section>
+
+<section id="Langues">
+<h2>Langues</h2>
+<p><em>Anglais </em> Voyages d'etude recurrent en Grande-Bretagne et en Suede</p>
+<p><em>Espagnol </em> Niveau scolaire et voyages recurrents en Espagne</p>
+</section>
+
+<section id="Centres_d_interets">
+	<h2>Centres d'Interets</h2>
+	<p><em>Loisirs </em> Piano (7 ans de conservatoire), Boxe thailandaise</p>
+	<p><em>Secourisme </em> AFPS(Attestation de Formation aux Premiers secours)</p>
+</section>
+
+</section>
+
+	<form id="Coucou">
+    <DT>
+        <label for="Sender">Sender@ :</label>
+    </DT>
+    <DD>
+    	<input type="email" id="Sender" name="user_mail"></DD>
+    <DT>
+        <label for="Subject ">Subject :</label>
+    </DT>
+    <DD>
+     	<input type="Subject" id="Subject" name="Subject">
+    </DD>
+    <DT>
+        <label for="msg">Text:</label>
+     </DT>
+       <DD> <textarea id="msg" name="user_message"></textarea></DD>
+       <input type="Submit" name="sub" onclick="valider()">
+</form>
+
+
+
+</body>
+</html>
